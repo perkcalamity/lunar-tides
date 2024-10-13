@@ -1,8 +1,14 @@
 {
   "name": "lunar-tides",
-  "displayName": "lunar-tides",
+  "displayName": "Lunar Tides Theme",
   "description": "A forked version of Ocean Dark made specifically for luau.",
   "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "scytheric",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perkcalamity/lunar-tides"
+  },
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -17,5 +23,14 @@
         "path": "./themes/Lunar Tides-color-theme.json"
       }
     ]
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Luau",
+    "Roblox"
+  ],
+  "devDependencies": {
+    "vsce": "^2.7.0"
   }
 }

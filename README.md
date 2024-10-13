@@ -1,2 +1,2 @@
 # Lunar Tides Theme
-Made specifically for luau brought to you by perkcalamity.
+Ocean Dark but made specifically for luau brought to you by perkcalamity.
