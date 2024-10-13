@@ -1,0 +1,21 @@
+{
+  "name": "lunar-tides",
+  "displayName": "lunar-tides",
+  "description": "A forked version of Ocean Dark made specifically for luau.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lunar Tides",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lunar Tides-color-theme.json"
+      }
+    ]
+  }
+}
