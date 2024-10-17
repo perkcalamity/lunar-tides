@@ -874,7 +874,7 @@
             "entity.name.function.luau",
          ],
          "settings": {
-            "foreground": "#aab9c0",
+            "foreground": "#6a90a1",
          }
       },
       {
@@ -882,7 +882,7 @@
             "constant.language.nil.luau"
          ],
          "settings": {
-            "foreground": "#834c4c",
+            "foreground": "#915454",
             "fontStyle": "bold"
          }
       },
@@ -963,6 +963,15 @@
          "settings": {
             "foreground": "#A6AFBD",
             "fontStyle": ""
+         }
+      },
+      {
+         "scope": [
+            "entity.name.function.luau",
+         ],
+         "settings": {
+            "foreground": "#6a90a1",
+            "fontStyle": "bold"
          }
       },
       {
@@ -1284,6 +1293,18 @@
             "foreground": "#b1a979",
             "fontStyle": ""
          }
+      },
+      {
+         "scope": [
+            "constant.language.global.luau",
+            "constant.language.enum.luau",
+            "class.defaultLibrary",
+            "variable.other.enummember",
+         ],
+         "settings": {
+            "foreground": "#6a75b6",
+            "fontStyle": "italic",
+         },
       },
       {
          "scope": [
@@ -2073,6 +2094,9 @@
    "semanticTokenColors": {
       "function": "#6a90a1",
       "method": "#6a90a1",
+      "enum":"#6a75b6",
+      "class.defaultLibrary": "#6a75b6",
+      "variable.readyonly.defaultLibrary": "#6a75b6",
    },
    "semanticHighlighting": true,
 }
